@@ -10,7 +10,6 @@ include_once "../include/db.php";
 
 $User->del($_GET['id']);
 
-
 unset($_SESSION['user']);
 header('location:../index.php');
 

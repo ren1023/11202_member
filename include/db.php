@@ -126,6 +126,7 @@ class DB{
 
     }
 
+    // 將原本陣列得到的資料輸出至 $tmp 轉成 function
     private function a2s($array){
         foreach ($array as $col => $value) {
             $tmp[] = "`$col`='$value'";
@@ -141,7 +142,7 @@ function dd($array)
     echo "</pre>";
 }
 
-$User=new DB ('users');// 命名時，第一個字大寫，表示是資料表的物件
+$User=new DB ('users');// 命名時，第一個字大寫，表示是資料表的物件，將實體化後連線 user 資料庫宣告為 $User 的物件
 
 // $student=new DB('students');
 // $rows=$student->count();

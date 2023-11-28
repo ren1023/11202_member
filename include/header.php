@@ -1,4 +1,5 @@
-<h1> ohya 購物商城 </h1>
+<!-- 將標頭獨立出來 -->
+<h1> 阿羅哈 購物商城 </h1>
     <header class="nav">
         <div class="nav-item col-4"></div>
         <div class="nav-item col-4">
