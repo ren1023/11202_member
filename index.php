@@ -12,20 +12,13 @@
             position: absolute;
             bottom: 0px;
             width: 100vw;
-            
         }
-
-        
     </style>
 </head>
 <body >
-
 <div class="min-vh-100 w-100 relative" >
-    
     <?php  include "./include/header.php"?>
     <?php include "./include/footer.php"?>
 </div>
-
 </body>
-
 </html>
