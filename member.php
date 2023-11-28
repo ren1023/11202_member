@@ -16,7 +16,7 @@ include_once "./include/connect.php";
    
 
     <div class="container">
-    <?php  include "./header.php"?>
+    <?php  include "./include/header.php"?>
 
         <h2 class="text-center"> 使用者資料 </h2>
         <?php
@@ -68,7 +68,7 @@ include_once "./include/connect.php";
         </form>
     </div>
 
-
+    <?php include "./include/footer.php"?>
 </body>
 
 </html>

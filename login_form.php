@@ -10,7 +10,7 @@
 <body>
   <section class="vh-100" style="background-color: #9A616D;">
     <div class="container py-5 h-100">
-    <?php  include "./header.php"?>
+    <?php  include "./include/header.php"?>
       <div class="row d-flex justify-content-center align-items-center h-100">
         <div class="col col-xl-10">
           <div class="card" style="border-radius: 1rem;">
@@ -51,5 +51,6 @@
       </div>
     </div>
   </section>
+  <?php include "./include/footer.php"?>
 </body>
 </html>
